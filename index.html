@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Highseas Calender with Event Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="sphere"></div>
+        <div class="sphere"></div>
+        <div class="sphere"></div>
+        <div class="sphere"></div>
+        <div class="sphere"></div>
+    </div>
+    
+
+    <h1 class="heading">Highseas Calender With Event Management</h1>
+    <span class="note">Note: Click on a Particular Date to Save the Event , You can save Multiple Events</span>
+  <div id="calendar">
+    <div id="header">
+      <button id="prev">❮</button>
+      <h1 id="month-year"></h1>
+      <button id="next">❯</button>
+    </div>
+    <div id="weekdays">
+      <div>Sun</div>
+      <div>Mon</div>
+      <div>Tue</div>
+      <div>Wed</div>
+      <div>Thu</div>
+      <div>Fri</div>
+      <div>Sat</div>
+    </div>
+    <div id="dates"></div>
+  </div>
+
+  <div id="event" class="modal">
+    <div class="modal-content">
+      <span id="close">&times;</span>
+      <h2>Add Event</h2>
+      <label for="event-date">Date:</label>
+      <input type="text" id="event-date" readonly>
+      <label for="event-name">Event Name:</label>
+      <input type="text" id="event-name">
+      <div id="marker-buttons">
+        <button class="marker-btn" data-marker="star">⭐</button>
+        <button class="marker-btn" data-marker="heart">❤️</button>
+      </div>
+      <button id="save-event">Save Event</button>
+    </div>
+  </div>
+
+  <div id="event-list"></div>
+
+  <p class="credit"> Made With ❤️ by @techgenuis</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
