@@ -1,6 +1,7 @@
 # Highseas-calender.github.io
- 
-gfgfg
+
+Disclaimer: Made with the help of Tutorials and i changed the user interface and add some my own features and also used AI to solve some error. 
+
 This project is a feature rich, visually appealing Calendar application Developed using HTMl, CSS and JavaScript. It includes interactive event management functionalities, a beautiful user interface and aiamted background animations to enhance the user experience. Users can add, view, and save events, marking them with a heat or star symbol for priority or favorites.
 
 Features:
